@@ -1,4 +1,8 @@
-One of the reasons that we built RapidAPI is to make it easier to call multiple APIs through one console. No more juggling multiple API libraries! We're starting a series where we smash two APIs together to make a project. Today? We're putting together GIPHY and Twilio to make "Text A GIF" program that texts someone a GIF based on a user-inputed phrase.
+
+
+One of the reasons that we built RapidAPI is to make it easier to call multiple APIs through one console. No more juggling multiple API libraries! 
+
+We're starting a series where we smash two APIs together to make a project. Today? We're putting together GIPHY and Twilio to make "Text A GIF" program that texts someone a GIF based on a user-inputed phrase.
 
 ![api-smash-5-copy](http://blog.rapidapi.com/wp-content/uploads/2016/12/API-Smash-5-copy.png)
 
@@ -6,7 +10,20 @@ One of the reasons that we built RapidAPI is to make it easier to call multiple 
 
 ### **Demo: "Text a GIF" **
 
-We created a "Text a GIF" app that runs in Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. See below for a demo! ![giphy-7](http://blog.rapidapi.com/wp-content/uploads/2016/12/giphy-7.gif) Aaaaaand here's the source code.  You can also find it [<span style="color: #000000;">on GitHub</span>](https://github.com/RapidSoftwareSolutions/APISmash_GiphyTwilio_TextAGif).  We built this project by exporting JavaScript code snippets from RapidAPI's [GIPHY](https://goo.gl/LZ2Cuq) and [Twilio API](https://goo.gl/ZSDA9E) packages. You can recreate this app in your preferred language by filling in the parameters on RapidAPI and exporting the snippet in the language of your choice (ex. Python, PHP, Java, Objective-C and cURL). ![giphy-5](http://blog.rapidapi.com/wp-content/uploads/2016/12/giphy-5.gif) Now, here's how we built it!
+We created a "Text a GIF" app that runs in Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. See below for a demo! 
+![giphy-7](http://gph.is/2gAnusI) 
+
+Aaaaaand here's the source code.  
+
+<script async src="//jsfiddle.net/044j0xyr/5/embed/js/"></script>
+
+You can also find it [<span style="color: #000000;">on GitHub</span>](https://github.com/RapidSoftwareSolutions/APISmash_GiphyTwilio_TextAGif).  
+
+We built this project by exporting JavaScript code snippets from RapidAPI's [GIPHY](https://goo.gl/LZ2Cuq) and [Twilio API](https://rapidapi.com/package/Twilio/functions?utm_source=GitHub&utm_medium=GitHubReadME&utm_content=APISmash_TwilioFunctions1) packages. You can recreate this app in your preferred language by filling in the parameters on RapidAPI and exporting the snippet in the language of your choice (ex. Python, PHP, Java, Objective-C and cURL). 
+
+![giphy-5](http://blog.rapidapi.com/wp-content/uploads/2016/12/giphy-5.gif) 
+
+Now, here's how we built it!
 
 ### **Step 1: Storing user inputs in variables**
 
