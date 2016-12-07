@@ -11,8 +11,9 @@ We're starting a series where we smash two APIs together to make a project. Toda
 ### **Demo: "Text a GIF" **
 
 We created a "Text a GIF" app that runs in Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. See below for a demo! 
-<a href="http://gph.is/2gAnusI" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>() 
+
+![gif-demo](https://i.giphy.com/l0MYviVQDTcyAFyKs.gif "Demo")
+
 
 Aaaaaand here's the source code.  
 
