@@ -2,7 +2,7 @@
 
 (adapted from a [RapidAPI blog post](http://blog.rapidapi.com/2016/12/07/giphy-and-twilio-text-a-gif-project-api-smash/) ) 
 
-We're starting a series where we smash two APIs together to make a project. Today? We're putting together GIPHY and Twilio to make "Text A GIF" program that texts someone a GIF based on a user-inputed phrase.
+We're starting a series where we smash two APIs together to make a project. Today? We're putting together GIPHY and Twilio to make "Text A GIF" script that texts someone a GIF based on a user-inputed phrase.
 
 ![api-smash-5-copy](http://blog.rapidapi.com/wp-content/uploads/2016/12/API-Smash-5-copy.png)
 
@@ -10,7 +10,7 @@ We're starting a series where we smash two APIs together to make a project. Toda
 
 ### **Demo: "Text a GIF" **
 
-We created a "Text a GIF" app that runs in Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. 
+We created a "Text a GIF" app that runs in the Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. 
 
 Visit this link to see a demo: https://media.giphy.com/media/l0MYviVQDTcyAFyKs/giphy.gif
 
@@ -95,7 +95,7 @@ _Note: In order for Twilio to read the phone number, it must be written in [E.1
         res.send("Error finding GIF");
     });
 
-If the call is successful, the program will call Twilio's API to text a MMS with the generated GIF. If the call isn't successful, the program will read an error message that lets the user know the problem was with the GIF generation.
+If the call is successful, the script will call Twilio's API to text a MMS with the generated GIF. If the call isn't successful, the script will read an error message that lets the user know the problem was with the GIF generation.
 
 ### **Step 3: Call the Twilio API**
 
@@ -136,7 +136,7 @@ For the "Text a GIF" project, we called the `sendMms` endpoint. Using this endpo
         res.send("Error finding GIF");
     });
 
-If the GIPHY API call is successful in generating a GIF, then the Twilio API will retrieve the image URL (`gif`) and text it to the phone number the user inputted initially (`phoneNumber`). The program will then prompt the user with "Check your phone!" If the Twilio API call is unsuccessful, the program will return the prompt "Error sending MMS."
+If the GIPHY API call is successful in generating a GIF, then the Twilio API will retrieve the image URL (`gif`) and text it to the phone number the user inputted initially (`phoneNumber`). The script will then prompt the user with "Check your phone!" If the Twilio API call is unsuccessful, the script will return the prompt "Error sending MMS."
 
 ### **Ta-da! **
 
