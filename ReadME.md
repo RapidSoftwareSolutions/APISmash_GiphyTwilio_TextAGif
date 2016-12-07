@@ -12,7 +12,7 @@ We're starting a series where we smash two APIs together to make a project. Toda
 
 We created a "Text a GIF" app that runs in Terminal.  The user types in a phrase and a phone number and the "Text A GIF" app sends a related, random GIF. See below for a demo! 
 
-![gif-demo](https://i.giphy.com/l0MYviVQDTcyAFyKs.gif "Demo")
+![](http://gph.is/2gAnusI)
 
 
 Aaaaaand here's the source code.  
