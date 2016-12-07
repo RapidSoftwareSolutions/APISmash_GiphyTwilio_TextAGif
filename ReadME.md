@@ -1,3 +1,5 @@
+#Text A GIF Project: Giphy and Twilio API Smash#
+
 (adapted from a [RapidAPI blog post](http://blog.rapidapi.com/2016/12/07/giphy-and-twilio-text-a-gif-project-api-smash/) ) 
 
 We're starting a series where we smash two APIs together to make a project. Today? We're putting together GIPHY and Twilio to make "Text A GIF" program that texts someone a GIF based on a user-inputed phrase.
