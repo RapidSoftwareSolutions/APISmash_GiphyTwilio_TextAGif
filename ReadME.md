@@ -15,7 +15,7 @@ We created a "Text a GIF" app that runs in Terminal.  The user types in a phras
 
 Aaaaaand here's the source code.  
 
-'''var RapidAPI = new require('rapidapi-connect');
+```var RapidAPI = new require('rapidapi-connect');
 var rapid = new RapidAPI('Demo', '############'); //Your RapidAPI Account number
 
 //Retrieving GIF text and target phone number from command line
@@ -49,7 +49,7 @@ rapid.call('Giphy', 'translateTextToGif', {
 
     }).on('error', (payload)=>{
         res.send("Error finding GIF");
-    });'''
+    });```
 
 
 We built this project by exporting JavaScript code snippets from RapidAPI's [GIPHY](https://goo.gl/LZ2Cuq) and [Twilio API](https://rapidapi.com/package/Twilio/functions?utm_source=GitHub&utm_medium=GitHubReadME&utm_content=APISmash_TwilioFunctions1) packages. You can recreate this app in your preferred language by filling in the parameters on RapidAPI and exporting the snippet in the language of your choice (ex. Python, PHP, Java, Objective-C and cURL). 
